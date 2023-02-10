@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>virayesh maten</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="tools">
+        <input type="color" class="color" onchange="color(this.value)" />
+        <button class="size fa fa-plus" onclick="inc()"></button>
+        <button class="size fa fa-minus" onclick="dec()"></button>
+        <button class="bold fa fa-bold" onclick="bold()"></button>
+        <button class="italic fa fa-italic" onclick="italic()"></button>
+        <button class="left fa fa-align-left" onclick="left()"></button>
+        <button class="center fa fa-align-center" onclick="center()"></button>
+        <button class="right fa fa-align-right" onclick="right()"></button>
+      </div>
+      <textarea
+        class="text"
+        id="text"
+        placeholder="شروع به نوشتن کنید"
+      ></textarea>
+    </section>
+  </body>
+  <script src="index.js"></script>
+</html>
