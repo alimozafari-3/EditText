@@ -14,10 +14,6 @@ function dec() {
   textarea.style.fontSize = `${sez}px`;
 }
 
-function bold() {
-  textarea.style.fontWeight = "900";
-}
-
 function italic() {
   textarea.style.fontStyle = "italic";
 }
